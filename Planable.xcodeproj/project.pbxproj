@@ -3,27 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344F5D27264F0F9000C847D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 344F5D26264F0F9000C847D5 /* GoogleService-Info.plist */; };
+		344F5D29264F289700C847D5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344F5D28264F289700C847D5 /* AboutViewController.swift */; };
+		346FEE6F2650E9B9003650BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE6E2650E9B9003650BB /* SearchViewController.swift */; };
+		346FEE712650FF02003650BB /* AddCommunityPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */; };
+		346FEE7326510129003650BB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7226510129003650BB /* Post.swift */; };
+		346FEE7526510133003650BB /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7426510133003650BB /* Posts.swift */; };
+		346FEE772651013C003650BB /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE762651013C003650BB /* Club.swift */; };
+		346FEE792651014D003650BB /* Clubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE782651014D003650BB /* Clubs.swift */; };
+		346FEE7B26510181003650BB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7A26510181003650BB /* Photo.swift */; };
+		346FEE7D2651018A003650BB /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7C2651018A003650BB /* Photos.swift */; };
+		346FEE7F265101A4003650BB /* RSVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7E265101A4003650BB /* RSVP.swift */; };
+		346FEE81265101B1003650BB /* RSPVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE80265101B1003650BB /* RSPVs.swift */; };
+		3491B93F264F679C000F5EE1 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B93E264F679C000F5EE1 /* CommunityViewController.swift */; };
+		3491B941264F68CA000F5EE1 /* CommunityPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B940264F68CA000F5EE1 /* CommunityPostTableViewCell.swift */; };
+		3491B943264F7063000F5EE1 /* RSVPsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B942264F7063000F5EE1 /* RSVPsViewController.swift */; };
+		3491B945264F709A000F5EE1 /* ClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B944264F709A000F5EE1 /* ClubsViewController.swift */; };
+		3491B947264F70B4000F5EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B946264F70B4000F5EE1 /* ProfileViewController.swift */; };
+		3491B94B264F7155000F5EE1 /* AddRSPVsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B94A264F7155000F5EE1 /* AddRSPVsViewController.swift */; };
+		3491B94D264F7180000F5EE1 /* ClubDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B94C264F7180000F5EE1 /* ClubDetailTableViewController.swift */; };
+		3491B94F264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B94E264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift */; };
+		3491B951264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B950264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift */; };
+		3491B953264F71E8000F5EE1 /* EventDetail_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B952264F71E8000F5EE1 /* EventDetail_1ViewController.swift */; };
+		3491B955264F71F7000F5EE1 /* EventDetail_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B954264F71F7000F5EE1 /* EventDetail_2ViewController.swift */; };
 		34EAF51E26470D8000CFEF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF51D26470D8000CFEF19 /* AppDelegate.swift */; };
 		34EAF52026470D8000CFEF19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF51F26470D8000CFEF19 /* SceneDelegate.swift */; };
-		34EAF52226470D8000CFEF19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF52126470D8000CFEF19 /* ViewController.swift */; };
+		34EAF52226470D8000CFEF19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF52126470D8000CFEF19 /* LoginViewController.swift */; };
 		34EAF52526470D8000CFEF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EAF52326470D8000CFEF19 /* Main.storyboard */; };
 		34EAF52726470D8200CFEF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EAF52626470D8200CFEF19 /* Assets.xcassets */; };
 		34EAF52A26470D8200CFEF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EAF52826470D8200CFEF19 /* LaunchScreen.storyboard */; };
+		D625954C4147D8548ADC625A /* Pods_Planable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279DDC278FF0D62C4442A473 /* Pods_Planable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		279DDC278FF0D62C4442A473 /* Pods_Planable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C75A9E9FFA6B3A0B77262CF /* Pods-Planable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planable.debug.xcconfig"; path = "Target Support Files/Pods-Planable/Pods-Planable.debug.xcconfig"; sourceTree = "<group>"; };
+		344F5D26264F0F9000C847D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		344F5D28264F289700C847D5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		346FEE6E2650E9B9003650BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommunityPostViewController.swift; sourceTree = "<group>"; };
+		346FEE7226510129003650BB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		346FEE7426510133003650BB /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		346FEE762651013C003650BB /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		346FEE782651014D003650BB /* Clubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clubs.swift; sourceTree = "<group>"; };
+		346FEE7A26510181003650BB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		346FEE7C2651018A003650BB /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		346FEE7E265101A4003650BB /* RSVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSVP.swift; sourceTree = "<group>"; };
+		346FEE80265101B1003650BB /* RSPVs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPVs.swift; sourceTree = "<group>"; };
+		3491B93E264F679C000F5EE1 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		3491B940264F68CA000F5EE1 /* CommunityPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostTableViewCell.swift; sourceTree = "<group>"; };
+		3491B942264F7063000F5EE1 /* RSVPsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSVPsViewController.swift; sourceTree = "<group>"; };
+		3491B944264F709A000F5EE1 /* ClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsViewController.swift; sourceTree = "<group>"; };
+		3491B946264F70B4000F5EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3491B94A264F7155000F5EE1 /* AddRSPVsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRSPVsViewController.swift; sourceTree = "<group>"; };
+		3491B94C264F7180000F5EE1 /* ClubDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDetailTableViewController.swift; sourceTree = "<group>"; };
+		3491B94E264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_1TableViewCell.swift; sourceTree = "<group>"; };
+		3491B950264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_2TableViewCell.swift; sourceTree = "<group>"; };
+		3491B952264F71E8000F5EE1 /* EventDetail_1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_1ViewController.swift; sourceTree = "<group>"; };
+		3491B954264F71F7000F5EE1 /* EventDetail_2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_2ViewController.swift; sourceTree = "<group>"; };
 		34EAF51A26470D8000CFEF19 /* Planable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EAF51D26470D8000CFEF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34EAF51F26470D8000CFEF19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34EAF52126470D8000CFEF19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34EAF52126470D8000CFEF19 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		34EAF52426470D8000CFEF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34EAF52626470D8200CFEF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EAF52926470D8200CFEF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34EAF52B26470D8200CFEF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F96BC43715CE31F050E7FF0 /* Pods-Planable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planable.release.xcconfig"; path = "Target Support Files/Pods-Planable/Pods-Planable.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D625954C4147D8548ADC625A /* Pods_Planable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3491B939264F413A000F5EE1 /* Login & About VC */ = {
+			isa = PBXGroup;
+			children = (
+				34EAF52126470D8000CFEF19 /* LoginViewController.swift */,
+				344F5D28264F289700C847D5 /* AboutViewController.swift */,
+			);
+			path = "Login & About VC";
+			sourceTree = "<group>";
+		};
+		3491B93A264F4182000F5EE1 /* Firebase Models */ = {
+			isa = PBXGroup;
+			children = (
+				346FEE7226510129003650BB /* Post.swift */,
+				346FEE7426510133003650BB /* Posts.swift */,
+				346FEE7A26510181003650BB /* Photo.swift */,
+				346FEE7C2651018A003650BB /* Photos.swift */,
+				346FEE762651013C003650BB /* Club.swift */,
+				346FEE782651014D003650BB /* Clubs.swift */,
+				346FEE7E265101A4003650BB /* RSVP.swift */,
+				346FEE80265101B1003650BB /* RSPVs.swift */,
+			);
+			path = "Firebase Models";
+			sourceTree = "<group>";
+		};
+		3491B93B264F41A0000F5EE1 /* TabBarViews */ = {
+			isa = PBXGroup;
+			children = (
+				3491B940264F68CA000F5EE1 /* CommunityPostTableViewCell.swift */,
+				3491B94A264F7155000F5EE1 /* AddRSPVsViewController.swift */,
+				3491B94C264F7180000F5EE1 /* ClubDetailTableViewController.swift */,
+				3491B94E264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift */,
+				3491B950264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift */,
+				3491B952264F71E8000F5EE1 /* EventDetail_1ViewController.swift */,
+				3491B954264F71F7000F5EE1 /* EventDetail_2ViewController.swift */,
+			);
+			path = TabBarViews;
+			sourceTree = "<group>";
+		};
+		3491B93C264F41C5000F5EE1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3491B93D264F677F000F5EE1 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3491B93E264F679C000F5EE1 /* CommunityViewController.swift */,
+				3491B942264F7063000F5EE1 /* RSVPsViewController.swift */,
+				3491B944264F709A000F5EE1 /* ClubsViewController.swift */,
+				3491B946264F70B4000F5EE1 /* ProfileViewController.swift */,
+				346FEE6E2650E9B9003650BB /* SearchViewController.swift */,
+				346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
 		34EAF51126470D8000CFEF19 = {
 			isa = PBXGroup;
 			children = (
 				34EAF51C26470D8000CFEF19 /* Planable */,
 				34EAF51B26470D8000CFEF19 /* Products */,
+				93D5918DC3C18D10B90C6AAB /* Pods */,
+				AD92BD2C93C092D2BFA18A8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +169,35 @@
 			children = (
 				34EAF51D26470D8000CFEF19 /* AppDelegate.swift */,
 				34EAF51F26470D8000CFEF19 /* SceneDelegate.swift */,
-				34EAF52126470D8000CFEF19 /* ViewController.swift */,
+				3491B939264F413A000F5EE1 /* Login & About VC */,
+				3491B93A264F4182000F5EE1 /* Firebase Models */,
+				3491B93D264F677F000F5EE1 /* VCs */,
+				3491B93B264F41A0000F5EE1 /* TabBarViews */,
+				3491B93C264F41C5000F5EE1 /* Utilities */,
 				34EAF52326470D8000CFEF19 /* Main.storyboard */,
 				34EAF52626470D8200CFEF19 /* Assets.xcassets */,
 				34EAF52826470D8200CFEF19 /* LaunchScreen.storyboard */,
 				34EAF52B26470D8200CFEF19 /* Info.plist */,
+				344F5D26264F0F9000C847D5 /* GoogleService-Info.plist */,
 			);
 			path = Planable;
+			sourceTree = "<group>";
+		};
+		93D5918DC3C18D10B90C6AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C75A9E9FFA6B3A0B77262CF /* Pods-Planable.debug.xcconfig */,
+				8F96BC43715CE31F050E7FF0 /* Pods-Planable.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD92BD2C93C092D2BFA18A8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279DDC278FF0D62C4442A473 /* Pods_Planable.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34EAF52E26470D8200CFEF19 /* Build configuration list for PBXNativeTarget "Planable" */;
 			buildPhases = (
+				AE34F714DA3A459F9AEE6734 /* [CP] Check Pods Manifest.lock */,
 				34EAF51626470D8000CFEF19 /* Sources */,
 				34EAF51726470D8000CFEF19 /* Frameworks */,
 				34EAF51826470D8000CFEF19 /* Resources */,
+				6AD3F05527D43295CF822214 /* [CP] Embed Pods Frameworks */,
+				E7F4DAF760FA8DB0539C169F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EAF52A26470D8200CFEF19 /* LaunchScreen.storyboard in Resources */,
+				344F5D27264F0F9000C847D5 /* GoogleService-Info.plist in Resources */,
 				34EAF52726470D8200CFEF19 /* Assets.xcassets in Resources */,
 				34EAF52526470D8000CFEF19 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +269,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AD3F05527D43295CF822214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planable/Pods-Planable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planable/Pods-Planable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Planable/Pods-Planable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE34F714DA3A459F9AEE6734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F4DAF760FA8DB0539C169F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planable/Pods-Planable-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planable/Pods-Planable-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Planable/Pods-Planable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34EAF51626470D8000CFEF19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34EAF52226470D8000CFEF19 /* ViewController.swift in Sources */,
+				346FEE7F265101A4003650BB /* RSVP.swift in Sources */,
+				3491B943264F7063000F5EE1 /* RSVPsViewController.swift in Sources */,
+				34EAF52226470D8000CFEF19 /* LoginViewController.swift in Sources */,
+				3491B94D264F7180000F5EE1 /* ClubDetailTableViewController.swift in Sources */,
+				3491B955264F71F7000F5EE1 /* EventDetail_2ViewController.swift in Sources */,
+				346FEE7D2651018A003650BB /* Photos.swift in Sources */,
+				346FEE81265101B1003650BB /* RSPVs.swift in Sources */,
+				3491B94B264F7155000F5EE1 /* AddRSPVsViewController.swift in Sources */,
+				346FEE712650FF02003650BB /* AddCommunityPostViewController.swift in Sources */,
+				3491B953264F71E8000F5EE1 /* EventDetail_1ViewController.swift in Sources */,
+				346FEE772651013C003650BB /* Club.swift in Sources */,
 				34EAF51E26470D8000CFEF19 /* AppDelegate.swift in Sources */,
+				3491B941264F68CA000F5EE1 /* CommunityPostTableViewCell.swift in Sources */,
+				3491B945264F709A000F5EE1 /* ClubsViewController.swift in Sources */,
+				346FEE792651014D003650BB /* Clubs.swift in Sources */,
+				3491B951264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift in Sources */,
+				346FEE6F2650E9B9003650BB /* SearchViewController.swift in Sources */,
+				344F5D29264F289700C847D5 /* AboutViewController.swift in Sources */,
+				346FEE7526510133003650BB /* Posts.swift in Sources */,
+				3491B94F264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift in Sources */,
+				3491B947264F70B4000F5EE1 /* ProfileViewController.swift in Sources */,
+				346FEE7B26510181003650BB /* Photo.swift in Sources */,
+				346FEE7326510129003650BB /* Post.swift in Sources */,
+				3491B93F264F679C000F5EE1 /* CommunityViewController.swift in Sources */,
 				34EAF52026470D8000CFEF19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +501,7 @@
 		};
 		34EAF52F26470D8200CFEF19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C75A9E9FFA6B3A0B77262CF /* Pods-Planable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +521,7 @@
 		};
 		34EAF53026470D8200CFEF19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F96BC43715CE31F050E7FF0 /* Pods-Planable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
