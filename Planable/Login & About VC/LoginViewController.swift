@@ -36,6 +36,7 @@ class LoginViewController: UIViewController {
             present(loginViewController, animated: true, completion: nil)
         } else { // user is already logged in
             performSegue(withIdentifier: "FirstShowSegue", sender: nil)
+            authUI.auth?.currentUser?.displayName
         }
     }
     

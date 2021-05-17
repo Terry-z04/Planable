@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct RSVP: Codable {
+    var name: String
+    var date: Date
+    var description: String
+}

@@ -13,14 +13,47 @@ class RSVPsViewController: UIViewController {
     @IBOutlet weak var editBarButton: UIBarButtonItem!
     @IBOutlet weak var addBarButton: UIBarButtonItem!
     
-    var eventRSVP = ["Basic Finance Exam", "Alumni Job Shadow"]
-    var timeString = ["05/17/21 12:30:00 PM", "05/21/21 09:00:00 AM"]
-
+    var rspvs = RSPVs()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         rsvpsTableView.delegate = self
         rsvpsTableView.dataSource = self
         
+        rspvs.loadData {
+            self.rsvpsTableView.reloadData()
+        }
+        
+    }
+    
+    func saveData() {
+        rspvs.saveData()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowEvent" {
+            let destination = segue.destination as! AddRSPVsViewController
+            let selectedIndexPath = rsvpsTableView.indexPathForSelectedRow!
+            destination.rsvp = rspvs.rspvArray[selectedIndexPath.row]
+        } else {
+            if let selectedIndexPath = rsvpsTableView.indexPathForSelectedRow {
+                rsvpsTableView.deselectRow(at: selectedIndexPath, animated: true)
+            }
+        }
+    }
+    
+    @IBAction func unwindFromDetail(segue: UIStoryboardSegue) {
+        let source = segue.source as! AddRSPVsViewController
+        if let selectedIndexPath = rsvpsTableView.indexPathForSelectedRow {
+            rspvs.rspvArray[selectedIndexPath.row] = source.rsvp
+            rsvpsTableView.reloadRows(at: [selectedIndexPath], with: .automatic)
+        } else {
+            let newIndexPath = IndexPath(row: rspvs.rspvArray.count, section: 0)
+            rspvs.rspvArray.append(source.rsvp)
+            rsvpsTableView.insertRows(at: [newIndexPath], with: .bottom)
+            rsvpsTableView.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
+        }
+        saveData()
     }
     
     @IBAction func editButtonPressed(_ sender: UIBarButtonItem) {
@@ -38,13 +71,13 @@ class RSVPsViewController: UIViewController {
 }
 extension RSVPsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return eventRSVP.count
+        return rspvs.rspvArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = rsvpsTableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = eventRSVP[indexPath.row]
-        cell.detailTextLabel?.text = timeString[indexPath.row]
+        cell.textLabel?.text = rspvs.rspvArray[indexPath.row].name
+        cell.detailTextLabel?.text = "\(rspvs.rspvArray[indexPath.row].date)"
         return cell
     }
     
@@ -54,15 +87,17 @@ extension RSVPsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            eventRSVP.remove(at: indexPath.row)
+            rspvs.rspvArray.remove(at: indexPath.row)
             rsvpsTableView.deleteRows(at: [indexPath], with: .fade)
+            saveData()
         }
     }
     
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        let itemToMove = eventRSVP[sourceIndexPath.row]
-        eventRSVP.remove(at: sourceIndexPath.row)
-        eventRSVP.insert(itemToMove, at: sourceIndexPath.row)
+        let itemToMove = rspvs.rspvArray[sourceIndexPath.row]
+        rspvs.rspvArray.remove(at: sourceIndexPath.row)
+        rspvs.rspvArray.insert(itemToMove, at: sourceIndexPath.row)
+        saveData()
     }
     
 }

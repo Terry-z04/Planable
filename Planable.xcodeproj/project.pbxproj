@@ -9,27 +9,20 @@
 /* Begin PBXBuildFile section */
 		344F5D27264F0F9000C847D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 344F5D26264F0F9000C847D5 /* GoogleService-Info.plist */; };
 		344F5D29264F289700C847D5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344F5D28264F289700C847D5 /* AboutViewController.swift */; };
-		346FEE6F2650E9B9003650BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE6E2650E9B9003650BB /* SearchViewController.swift */; };
 		346FEE712650FF02003650BB /* AddCommunityPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */; };
 		346FEE7326510129003650BB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7226510129003650BB /* Post.swift */; };
 		346FEE7526510133003650BB /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7426510133003650BB /* Posts.swift */; };
 		346FEE772651013C003650BB /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE762651013C003650BB /* Club.swift */; };
 		346FEE792651014D003650BB /* Clubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE782651014D003650BB /* Clubs.swift */; };
-		346FEE7B26510181003650BB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7A26510181003650BB /* Photo.swift */; };
-		346FEE7D2651018A003650BB /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7C2651018A003650BB /* Photos.swift */; };
 		346FEE7F265101A4003650BB /* RSVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE7E265101A4003650BB /* RSVP.swift */; };
 		346FEE81265101B1003650BB /* RSPVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE80265101B1003650BB /* RSPVs.swift */; };
+		346FEE87265219EF003650BB /* UIViewControlelr+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FEE86265219EE003650BB /* UIViewControlelr+alert.swift */; };
 		3491B93F264F679C000F5EE1 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B93E264F679C000F5EE1 /* CommunityViewController.swift */; };
 		3491B941264F68CA000F5EE1 /* CommunityPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B940264F68CA000F5EE1 /* CommunityPostTableViewCell.swift */; };
 		3491B943264F7063000F5EE1 /* RSVPsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B942264F7063000F5EE1 /* RSVPsViewController.swift */; };
 		3491B945264F709A000F5EE1 /* ClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B944264F709A000F5EE1 /* ClubsViewController.swift */; };
 		3491B947264F70B4000F5EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B946264F70B4000F5EE1 /* ProfileViewController.swift */; };
 		3491B94B264F7155000F5EE1 /* AddRSPVsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B94A264F7155000F5EE1 /* AddRSPVsViewController.swift */; };
-		3491B94D264F7180000F5EE1 /* ClubDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B94C264F7180000F5EE1 /* ClubDetailTableViewController.swift */; };
-		3491B94F264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B94E264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift */; };
-		3491B951264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B950264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift */; };
-		3491B953264F71E8000F5EE1 /* EventDetail_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B952264F71E8000F5EE1 /* EventDetail_1ViewController.swift */; };
-		3491B955264F71F7000F5EE1 /* EventDetail_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491B954264F71F7000F5EE1 /* EventDetail_2ViewController.swift */; };
 		34EAF51E26470D8000CFEF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF51D26470D8000CFEF19 /* AppDelegate.swift */; };
 		34EAF52026470D8000CFEF19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF51F26470D8000CFEF19 /* SceneDelegate.swift */; };
 		34EAF52226470D8000CFEF19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAF52126470D8000CFEF19 /* LoginViewController.swift */; };
@@ -44,27 +37,20 @@
 		2C75A9E9FFA6B3A0B77262CF /* Pods-Planable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planable.debug.xcconfig"; path = "Target Support Files/Pods-Planable/Pods-Planable.debug.xcconfig"; sourceTree = "<group>"; };
 		344F5D26264F0F9000C847D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		344F5D28264F289700C847D5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		346FEE6E2650E9B9003650BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommunityPostViewController.swift; sourceTree = "<group>"; };
 		346FEE7226510129003650BB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		346FEE7426510133003650BB /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		346FEE762651013C003650BB /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 		346FEE782651014D003650BB /* Clubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clubs.swift; sourceTree = "<group>"; };
-		346FEE7A26510181003650BB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		346FEE7C2651018A003650BB /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		346FEE7E265101A4003650BB /* RSVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSVP.swift; sourceTree = "<group>"; };
 		346FEE80265101B1003650BB /* RSPVs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPVs.swift; sourceTree = "<group>"; };
+		346FEE86265219EE003650BB /* UIViewControlelr+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControlelr+alert.swift"; sourceTree = "<group>"; };
 		3491B93E264F679C000F5EE1 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		3491B940264F68CA000F5EE1 /* CommunityPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostTableViewCell.swift; sourceTree = "<group>"; };
 		3491B942264F7063000F5EE1 /* RSVPsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSVPsViewController.swift; sourceTree = "<group>"; };
 		3491B944264F709A000F5EE1 /* ClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsViewController.swift; sourceTree = "<group>"; };
 		3491B946264F70B4000F5EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3491B94A264F7155000F5EE1 /* AddRSPVsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRSPVsViewController.swift; sourceTree = "<group>"; };
-		3491B94C264F7180000F5EE1 /* ClubDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDetailTableViewController.swift; sourceTree = "<group>"; };
-		3491B94E264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_1TableViewCell.swift; sourceTree = "<group>"; };
-		3491B950264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_2TableViewCell.swift; sourceTree = "<group>"; };
-		3491B952264F71E8000F5EE1 /* EventDetail_1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_1ViewController.swift; sourceTree = "<group>"; };
-		3491B954264F71F7000F5EE1 /* EventDetail_2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail_2ViewController.swift; sourceTree = "<group>"; };
 		34EAF51A26470D8000CFEF19 /* Planable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EAF51D26470D8000CFEF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34EAF51F26470D8000CFEF19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,8 +88,6 @@
 			children = (
 				346FEE7226510129003650BB /* Post.swift */,
 				346FEE7426510133003650BB /* Posts.swift */,
-				346FEE7A26510181003650BB /* Photo.swift */,
-				346FEE7C2651018A003650BB /* Photos.swift */,
 				346FEE762651013C003650BB /* Club.swift */,
 				346FEE782651014D003650BB /* Clubs.swift */,
 				346FEE7E265101A4003650BB /* RSVP.swift */,
@@ -117,11 +101,6 @@
 			children = (
 				3491B940264F68CA000F5EE1 /* CommunityPostTableViewCell.swift */,
 				3491B94A264F7155000F5EE1 /* AddRSPVsViewController.swift */,
-				3491B94C264F7180000F5EE1 /* ClubDetailTableViewController.swift */,
-				3491B94E264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift */,
-				3491B950264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift */,
-				3491B952264F71E8000F5EE1 /* EventDetail_1ViewController.swift */,
-				3491B954264F71F7000F5EE1 /* EventDetail_2ViewController.swift */,
 			);
 			path = TabBarViews;
 			sourceTree = "<group>";
@@ -129,6 +108,7 @@
 		3491B93C264F41C5000F5EE1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				346FEE86265219EE003650BB /* UIViewControlelr+alert.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -137,11 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				3491B93E264F679C000F5EE1 /* CommunityViewController.swift */,
+				346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */,
 				3491B942264F7063000F5EE1 /* RSVPsViewController.swift */,
 				3491B944264F709A000F5EE1 /* ClubsViewController.swift */,
 				3491B946264F70B4000F5EE1 /* ProfileViewController.swift */,
-				346FEE6E2650E9B9003650BB /* SearchViewController.swift */,
-				346FEE702650FF02003650BB /* AddCommunityPostViewController.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -336,25 +315,18 @@
 				346FEE7F265101A4003650BB /* RSVP.swift in Sources */,
 				3491B943264F7063000F5EE1 /* RSVPsViewController.swift in Sources */,
 				34EAF52226470D8000CFEF19 /* LoginViewController.swift in Sources */,
-				3491B94D264F7180000F5EE1 /* ClubDetailTableViewController.swift in Sources */,
-				3491B955264F71F7000F5EE1 /* EventDetail_2ViewController.swift in Sources */,
-				346FEE7D2651018A003650BB /* Photos.swift in Sources */,
+				346FEE87265219EF003650BB /* UIViewControlelr+alert.swift in Sources */,
 				346FEE81265101B1003650BB /* RSPVs.swift in Sources */,
 				3491B94B264F7155000F5EE1 /* AddRSPVsViewController.swift in Sources */,
 				346FEE712650FF02003650BB /* AddCommunityPostViewController.swift in Sources */,
-				3491B953264F71E8000F5EE1 /* EventDetail_1ViewController.swift in Sources */,
 				346FEE772651013C003650BB /* Club.swift in Sources */,
 				34EAF51E26470D8000CFEF19 /* AppDelegate.swift in Sources */,
 				3491B941264F68CA000F5EE1 /* CommunityPostTableViewCell.swift in Sources */,
 				3491B945264F709A000F5EE1 /* ClubsViewController.swift in Sources */,
 				346FEE792651014D003650BB /* Clubs.swift in Sources */,
-				3491B951264F71CC000F5EE1 /* EventDetail_2TableViewCell.swift in Sources */,
-				346FEE6F2650E9B9003650BB /* SearchViewController.swift in Sources */,
 				344F5D29264F289700C847D5 /* AboutViewController.swift in Sources */,
 				346FEE7526510133003650BB /* Posts.swift in Sources */,
-				3491B94F264F71A9000F5EE1 /* EventDetail_1TableViewCell.swift in Sources */,
 				3491B947264F70B4000F5EE1 /* ProfileViewController.swift in Sources */,
-				346FEE7B26510181003650BB /* Photo.swift in Sources */,
 				346FEE7326510129003650BB /* Post.swift in Sources */,
 				3491B93F264F679C000F5EE1 /* CommunityViewController.swift in Sources */,
 				34EAF52026470D8000CFEF19 /* SceneDelegate.swift in Sources */,
